@@ -24,8 +24,15 @@ body,html{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.subtitle{
+    font-size: 30px;
+    text-align: center;
+}
 @media screen and (max-width: 460px){
     .name-tag{
        width: 300px;
+    }
+    .subtitle{
+        font-size: 20px;
     }
 }
