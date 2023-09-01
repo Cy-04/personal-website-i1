@@ -1,0 +1,22 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    /**background-image: url("../logo_icons/logo.svg");*/
+    padding-top: 10px;
+    width: 4%;
+}
+#home-hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    ,url("../images/home_banner.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#home-hero-header{
+    text-align: center;
+}
