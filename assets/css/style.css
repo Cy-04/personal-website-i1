@@ -24,7 +24,8 @@ body,html{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#home-hero-header{
-    max-width: 100%;
-    height: auto;
+@media screen and (max-width: 460px){
+    .name-tag{
+       width: 300px;
+    }
 }
