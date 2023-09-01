@@ -7,7 +7,7 @@ body,html{
 .logo{
     /**background-image: url("../logo_icons/logo.svg");*/
     padding-top: 10px;
-    width: 4%;
+    width: 60px;
 }
 #home-hero-image{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
@@ -22,5 +22,9 @@ body,html{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+}
+#home-hero-header{
+    max-width: 100%;
+    height: auto;
 }
