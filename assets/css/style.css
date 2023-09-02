@@ -18,18 +18,46 @@ body,html{
     background-size: cover;
     position: relative;
 }
-#home-hero-header{
+#home-hero-header, .subtitle{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .subtitle{
+    top: 65%;
     font-size: 30px;
     text-align: center;
+    opacity: 0.8;
 }
-@media screen and (max-width: 460px){
-    .name-tag{
+g{
+    overflow: hidden;
+    visibility: hidden;
+}
+
+svg{
+    width: 700px;
+    overflow: visible;
+
+}
+@media screen and (max-width: 850px){
+    svg{
+       width: 500px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    svg{
+       width: 400px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    svg{
        width: 300px;
     }
     .subtitle{
