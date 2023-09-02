@@ -35,7 +35,9 @@ const t1 = gsap.timeline({defaults: {ease: 'power4.out', duration: .7}})
 		yPercent: -50,
 		opacity: 0
 	})
-	
+	gsap.set('.subtitle',{
+        opacity: 0
+    })
 	gsap.to('svg',{
 		scale: 1.2,
 		duration: 4
@@ -77,4 +79,8 @@ const t1 = gsap.timeline({defaults: {ease: 'power4.out', duration: .7}})
 			skewY: 60,
 			skewX: 30,
 			opacity: 0		
-		})
+		    })
+            .to('.subtitle',{
+                opacity: 0.8,
+                ease: 'inOut(1, .1)'
+            })
