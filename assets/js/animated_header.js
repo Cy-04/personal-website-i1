@@ -1,8 +1,8 @@
 const t1 = gsap.timeline({defaults: {ease: 'power4.out', duration: .7}})
 
-	gsap.set( 'g', {
+	/*gsap.set( 'g', {
 		autoAlpha: 1
-	})
+	})*/
 
 	gsap.set('#FirstName',{
 		//opacity: 0
